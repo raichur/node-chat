@@ -1,9 +1,27 @@
 {
   "name": "Chat",
   "version": "0.0.1",
+  "description":  "A simple chat app with Node.js, Express, and Socket.IO",
   "private": "true",
+  "license": "MIT",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "devDependencies": {
     "express": "^4.10.4",
     "socket.io": "^1.2.1"
-  }
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raichur/node-chat"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
 }
