@@ -6,7 +6,7 @@ mongoose = require('mongoose'),
 users = {};
 var port = process.env.PORT || 3000;
 server.listen(port);
-mongoose.connect('MONGOHQ_URL', function(err){
+mongoose.connect(ENV['MONGOHQ_URL'], function(err){
   if(err){
     console.log("err");
   } else {
